@@ -1,0 +1,269 @@
+*{
+    
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background: linear-gradient(90deg,#f0ecd3,white) ;
+}
+section{
+    height:500px;
+    margin-top:20px;
+}
+
+/* header start */
+.sec1{
+    margin-top:10px;
+}
+header{
+  width:100%;
+  height:60px;
+  font-family: 'Open Sans', sans-serif;
+
+
+ 
+}
+.link{
+    display: flex;
+    justify-content: flex-end;
+    margin:15px 10px ;
+}
+.link li{
+    list-style-type: none;
+}
+.link li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding:5px 25px;
+    text-align: center;
+    color:#0a0a0a;
+    font-weight:550;
+    letter-spacing: 3px;
+       
+}
+.link li a:hover{
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    border-radius:30px;
+}
+
+/* intro section start */
+.intro
+{
+    width:50%;
+    float: left;
+    line-height: 2;
+    padding: 30px 0px 0px 40px;
+    margin-left: 40px;
+    justify-content: center;
+}
+.intro h1{
+    font-size: 50px;
+
+}
+.intro h3{
+  font-size: 20px;
+  color:rgb(89, 0, 255);
+  font-weight: bold;
+  margin-bottom:15px;
+}
+.intro p{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.name-highlight
+{
+  color:rgb(255, 0, 106);
+}
+.intro-image img
+{
+  height:350px;
+  width:350px;
+  margin:60px 0px 0px 90px;
+  
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(114, 81, 231),rgb(206, 31, 89));
+    padding:10px 20px;
+    border-radius: 10px;
+    font-weight:500;
+    color:white;
+}
+.btn:hover{
+    background-image: linear-gradient(180deg,rgb(114, 81, 231),rgb(31, 206, 139));
+}
+
+/* skill section start */
+.sec2
+{
+ background:url("Images/dream-bg.png");
+ background-repeat: no-repeat;
+ background-position: right center;
+
+}
+
+.skill-image{
+    width:40%;
+    float: left;
+}
+.skill-image img{
+    height:350px;
+    width:350px;
+    margin:10px 0px 0px 60px;
+}
+.skill-info{
+   margin-top:80px;
+   line-height: 2;
+}
+.skill-info h3{
+    color:rgb(89, 0, 255);
+}
+.skill-info p{
+    text-align:justify;
+    margin-bottom:20px;
+}
+#download{
+    color:rgb(232, 229, 238);
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+/* services section start */
+
+#services-rule{
+    margin-left:650px;
+    width:4%;
+}
+#services-sec{
+    margin-bottom:120px;
+}
+
+/* project section start */
+.my-project{
+    background:#E5E5E5;
+}
+.my-project h1{
+   font-family: 'Roboto Condensed', sans-serif;
+   text-transform: uppercase;
+   font-size:40px;
+   text-align: center;
+   margin-bottom: 40px;
+   color:#3825e1
+}
+#new-project
+{
+    color:red;
+}
+#highlight{
+    color:#9625e1;
+}
+.project-rule{
+    width:8%;
+    margin-left: 600px;
+    margin-top:-30px;
+    height: 5px;
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    
+    border-radius: 70px;
+    margin:-35px 0px 30px 600px
+}
+.project-deatils{
+  margin:20px 0px 0px 50px;
+}
+.project1,.project2,.project3{
+    width:31%;
+    height: 400px;
+    float: left;
+    border-radius:20px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+}
+.project2{
+    margin:0px 20px;
+}
+
+.project-image{
+    height: 250px;
+    width:100%;
+    padding:10px
+}
+.project-heading {
+    text-decoration: none;
+   
+}
+.project-heading h2{
+    margin-left: 15px;
+    font-size:25px;
+    color:grey;
+    margin-bottom:10px;
+}
+.project-heading h2:hover{
+   color:rgb(12, 12, 12);
+}
+.project1 p,.project2 p,.project3 p{
+    margin-left: 15px; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right:5px;
+}
+
+/* work-chat section start */
+.work-chat{
+    position: relative;
+}
+.work-chat img{
+    height:300px;
+    width:70%;
+    margin:100px 15%;
+}
+.work-chat h1
+{
+    position:absolute;
+    top:210px;
+    left:270px;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(238, 217, 217);
+    font-family: 'Abel', sans-serif;;
+}
+
+.work-chat a{
+    position:absolute;
+    top:230px;
+    left:930px; 
+    text-decoration: none;
+   
+    background-image: linear-gradient(to right, #cc3c43, #e74349, #e14e53, #e2373f);
+    padding:20px 30px;
+    border-radius: 30px;
+    font-weight:500;
+    font-size: 20px;
+    color:white;
+}
+.work-chat a:hover{
+    cursor:pointer;
+      background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516); 
+}
+
+/* footer start */
+footer{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+footer h2{
+ margin-bottom: 5px;
+ font-family: 'Bebas Neue', cursive;
+ font-weight:300;
+ opacity: .7;
+}
+.icon img{
+    margin:15px 0px 20px 15px;
+    height:50px;
+    width:50px;
+}
+footer p{
+    margin-bottom:20px;
+}
+

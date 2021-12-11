@@ -1,0 +1,16 @@
+.count h2{
+    font-size: 50px;
+    color:teal;
+    text-transform: uppercase;
+    margin-left: -15px;
+
+}
+#count-number{
+font-size: 80px;
+margin-left: 65px;
+}
+
+.button-container{
+    padding-top: 30px;
+    margin-left: -70px;
+}

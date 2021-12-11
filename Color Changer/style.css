@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+}
+
+.flag{
+    height:300px;
+    width:500px;
+    background-color: green;
+    margin:200px auto;
+    position: relative;
+}
+.flag-circle{
+    background:red;
+    height:225px;
+    width:225px;
+    border-radius: 50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.click-btn{
+    margin-left:50%;
+    margin-top: -20%;
+}
+
+.color-change{
+    background-color:green;
+}
+
+.color-change1{
+    background-color:red;
+}
